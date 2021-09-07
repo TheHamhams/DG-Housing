@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<body>
+    <div class="Login">
+        <h1>Housing Price Predictor for King County, Washington</h1>
+
+        <form action="{{ url_for('predict') }}"method="post">
+            <input type="text" name="bedrooms" placeholder="Number of bedrooms" required="required" />
+            <input type="text" name="bathrooms" placeholder="Number of bathrooms" required="required" />
+            <input type="text" name="sqft_living" placeholder="Living area square feet" required="required" />
+            <input type="text" name="floors" placeholder="Number of floors" required="required" />
+            <input type="text" name="condition" placeholder="Condition of house (1 - 5)" required="required" />
+            
+
+            <button type="submit" class='btn btn-primary btn-block btn-Large'>Predict</button>
+        </form>
+
+        <br>
+        <br>
+        {{ prediction_text }}
+    </div>
+</body>
