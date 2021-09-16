@@ -18,7 +18,7 @@ scikit-image==0.18.1
 
 sklearn==0.0
 
-pandas
+pandas==1.2.4
 
 unicodecsv==0.14.1
 
