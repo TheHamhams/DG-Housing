@@ -9,9 +9,7 @@ model=pickle.load(open('Model/model.pickle', 'rb'))
 @app.route('/', methods=['GET', 'POST'])
 def home():
     return render_template('index.html')
-    #if(request.method == 'GET'):
-       #data = 'Hello'
-        #return jsonify({'data':data})
+    
 
 @app.route('/predict/', methods=['GET', 'POST'])
 def predict():
