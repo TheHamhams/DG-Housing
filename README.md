@@ -14,7 +14,7 @@ Another feature that I had to remove was using flask_wtf to use the date from th
 
 Heroku -
 
-This was also my first time putting an app on Heroku. The biggest hurdle for me was getting the requirments.txt file working. I now understand the benefit of using a digital environment for this purpose, but before I used the command to create the file using all the dependencies on the machine. However, this added way too many libraries and they couldn't be found to upload them. I also tried using a Heroku python package, but for some reason none of them worked. I just ended up adding them manually which is what I should have done in the beginning since there are so few of them.
+This was also my first time putting an app on Heroku. The biggest hurdle for me was getting the requiements.txt file working. I now understand the benefit of using a digital environment for this purpose, but before I used the command to create the file using all the dependencies on the machine. However, this added way too many libraries and they couldn't be found to upload them. I also tried using a Heroku python package, but for some reason none of them worked. I just ended up adding them manually which is what I should have done in the beginning since there are so few of them.
 
 Conclusion -
 
